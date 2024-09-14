@@ -115,6 +115,7 @@ html{
 .first-section .lower-box{
     display:flex;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .first-section .lower-box .boxes{
     width:270px;
