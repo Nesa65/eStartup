@@ -10,11 +10,11 @@ html{
     font-family: sans-serif;
     max-width:1100px;
     margin:auto;
-    border:2px solid black;
+    
 }
 .container-fluid{
     width:100%;
-    /* background-color: lightgray; */
+  
 }
 .row-1{
     flex-wrap: wrap;
@@ -49,11 +49,7 @@ html{
     font-size:20px;
     flex-grow:1;
 }
-.header .right-side{
-    /* width:50%; */
-    /* flex-grow:1; */
 
-}
 .header ul{
     list-style: none;
 }
@@ -75,25 +71,17 @@ html{
     
 }
 .first-section .container{
-    /* display:flex; */
-    /* flex-direction: column; */
-    /* row-gap: 60px; */
     padding:125px 0 60px;
 }
 .first-section .upper-box{
     display:flex;
     flex-wrap: wrap;
-    /* height:300px; */
+
 }
 .first-section .right-side img{
     width:100%;
 }
-.first-section .right-side{
-    /* width:50%; */
-}
-.first-section .left-side{
-    /* width:50%; */
-}
+
 .first-section .left-side h1{ 
     font-size: 50px;
     margin:25px 0;
@@ -127,15 +115,16 @@ html{
 .first-section .lower-box{
     display:flex;
     flex-wrap: wrap;
+    margin-top:50px;
 }
 .mrgn-10{
     margin:0 10px;
 }
 .first-section .boxes{
-    /* padding:50px; */
+    
     margin:0 10px;
     width:250px;
-    height:270px;
+    
     background-color:white;
     font-size: 25px;
     font-weight: bold;
@@ -147,22 +136,7 @@ html{
     flex-grow: 1;
 
 }
-.first-section .lower-box .boxes{
-    /* display:flex; */
-}
 
-/* @media screen and (min-width:768px){
-    .first-section .boxes{
-        flex-direction: column;
-        width:100%;
-    }
-} */
-/* @media screen and (min-width:768px){
-    .first-section .lower-box .boxes{
-      
-        width:50%;
-    }
-} */
 .first-section .lower-box .boxes div{
     margin:40px 0;
 }
@@ -181,26 +155,16 @@ html{
     flex-wrap: wrap;
 }
 /* ============================== second =========================================== */
-.second-section{
-    height:550px;
-    margin:50px 0;
-}
+
 .row-3{
     display:flex;
     flex-wrap: wrap;
+    padding:50px 0;
 }
-/* @media screen and (max-width:600px){
-    .second-section .left-side{
-        width:100%;
-    }
-} */
-.second-section .container{
-    /* display:flex; */
-    /* column-gap: 10px; */
-    /* padding:60px 0; */
-}
+
+
 .second-section .left-side div{
-    /* width:50%; */
+   
     height:100%;
 }
 .second-section .left-side h1{
@@ -252,7 +216,7 @@ html{
     cursor: pointer;
 }
 .second-section .right-side{
-    /* width:50%; */
+    
     height:100%;
     display:flex;
     column-gap: 20px;
@@ -261,15 +225,13 @@ html{
     width:100%;
     height:100%;
 }
-.second-section .right-side .single-pic{
-    /* width:50%; */
-}
+
 .second-section .right-side .single-pic img{
     border-radius:10px;
     height:100%;
 }
 .second-section .right-side .double-pic{
-    /* width:50%; */
+    
     display:flex;
     flex-direction:column;
     row-gap: 20px;
@@ -286,37 +248,39 @@ html{
 }
 /* ======================================== Third ================================ */
 
-.third-section .main{
+
+.row-3-1{
+   
+    display:flex;
     flex-wrap: wrap;
-    margin:70px 0;
+    align-content: space-between;
+ 
 }
-.mgn-25{
-    margin-top:25px;
-}
-.third-section .main .mini-mains{
-    width:350px;
-    height:350px;
+.row-3-1 .mini-mains{
+   
     padding:40px 25px;
     border-radius: 20px;
     box-shadow: 0 0 50px 10px rgb(217, 224, 243);
+    overflow: hidden;
 }
-.third-section .main .mini-mains span{
+.row-3-1 .mini-mains span{
     border-radius: 50%;
     background-color:#71c55d;
      font-size: 35px;
      padding:20px;
      color:white
 }
-.third-section .main .mini-mains h3{
+.row-3-1 .mini-mains h3{
     margin:20px 0;
     font-size: 25px;
     font-weight: 600;
 }
-.third-section .main .mini-mains p{
+.row-3-1 .mini-mains p{
   font-size: 15px;
   font-weight: 100;
   color:rgb(78, 77, 77);
 }
+
 /* =================================== Forth ================================== */
 .forth-section{
     background-color: #f1f6f1;
@@ -324,13 +288,14 @@ html{
 }
 .forth-section .main{
     display: flex;
+    flex-wrap: wrap;
     padding:50px 0;
 }
-.width-50{
-    width:50%;
-}
-.forth-section .left-bar{
-  flex-grow: 1;
+
+
+.forth-section .right-bar{
+    flex-wrap: wrap;
+
 }
 .forth-section .left-bar img{
     width:80%;
@@ -389,7 +354,7 @@ html{
 }
 .fifth-section .plans{
     text-align: center;
-    width:250px;
+    
     align-items: center;
     padding:50px 0px;
     box-shadow: 0 0 25px 0px rgb(221, 234, 236);
@@ -468,6 +433,7 @@ html{
 }
 .fifth-section .third-line{
     display:flex;
+    flex-wrap: wrap;
     margin:50px 0;
     justify-content: space-between;
 }
@@ -479,10 +445,15 @@ html{
 .sixth-section .container{
     display:flex;
     column-gap: 50px;
-    padding:40px 0;
+    
+}
+.row-5{
+    display:flex;
+    flex-wrap: wrap;
+    padding:50px 0;
 }
 .sixth-section .left{
-    width:30%;
+    
     padding:20px 50px;
 }
 .sixth-section .left p{
@@ -501,8 +472,9 @@ html{
 
 }
 .sixth-section .right{
-    width:70%;
+    
     padding:0;
+    flex-grow: 1;
 }
 .sixth-section .right li{
     background-color: white;
@@ -530,8 +502,9 @@ html{
     text-align: center;
 }
 .seventh-section .left{
-    width:30%;
+    
     padding:0px 10px 100px ;
+    flex-grow: 1;
 }
 .seventh-section .left div:nth-child(2){
     margin:15px 0;
@@ -563,12 +536,14 @@ html{
     flex-grow: 1;
 }
 .seventh-section .right{
-    width:70%;
+    
     text-align: center;
+    flex-grow: 1;
 }
 .seventh-section .main{
     display:flex;
-    column-gap: 55px;
+    flex-wrap: wrap;
+    
 }
 .seventh-section .right input{
     width:100%;
